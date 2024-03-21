@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Connect, HeroSection, Projects, TechSkills } from "./components";
+import { HeroSection, Projects, TechSkills } from "./components";
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
         <HeroSection />
         <TechSkills />
         <Projects />
-        <Connect />
       </div>
     </>
   );

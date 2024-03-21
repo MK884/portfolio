@@ -5,7 +5,8 @@
 ::-webkit-scrollbar {
   width: 0;
 }
-* {
+*,
+:root {
   user-select: none;
   outline: none;
   scroll-behavior: smooth;

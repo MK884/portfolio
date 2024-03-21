@@ -78,7 +78,7 @@ const Logos = [
 
 const TechSkills = () => {
   return (
-    <div className="lg:m-[8rem] lg:h-[60rem]">
+    <section className="lg:m-[8rem] lg:h-[60rem]" id="skills">
       <h2 className="font-bold text-white text-[4rem] text-center ">
         Technical Skills
       </h2>
@@ -94,7 +94,7 @@ const TechSkills = () => {
           <SkillBox key={logo.id} logo={logo.logo} title={logo.title} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
