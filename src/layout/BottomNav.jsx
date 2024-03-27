@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { CiHome } from "react-icons/ci";
+import { FaRegCircle } from "react-icons/fa6";
+import { FaRegSquare } from "react-icons/fa";
 
 const BottomNav = () => {
   const [activeSection, setActiveSection] = useState("#home");
@@ -22,46 +25,45 @@ const BottomNav = () => {
       if (currentSectionId && currentSectionId !== activeSection) {
         setActiveSection(currentSectionId);
       }
-      
     };
-    
-    window.addEventListener('scroll', handleScroll);
+
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);}
-    
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [activeSection]);
 
   return (
     <nav
-      className="fixed lg:bottom-10 bottom-0 left-[50%] translate-x-[-50%] lg:w-[400px]  p-[.8rem] lg:rounded-[2rem] bg-white bg-opacity-[.08] backdrop-blur-lg w-full border border-white border-opacity-[.08] ;
+      className="fixed lg:bottom-10 bottom-0 px-1 py-2 left-1/2 translate-x-[-50%] lg:w-[400px] lg:rounded-[2rem] bg-[#232329] rounded-md w-full m-1 border border-[#2e2e2e]
     "
     >
       <ul className="flex font-bold  text-white list-none justify-around items-center hover:cursor-pointer">
         <li
-          className={`py-2 rounded-[2rem] ${
-            activeSection === "#home" ? "bg-[#763CAC] px-[2rem]" : ""
+          className={`p-[8px] rounded-md ${
+            activeSection === "#home" ? "bg-[#3f3c3c69]" : ""
           }`}
         >
           <a href="#home" onClick={handleNav}>
-            Home
+            <CiHome size={18} />
           </a>
         </li>
         <li
-          className={`py-2 rounded-[2rem] ${
-            activeSection === "#skills" ? "bg-[#763CAC] px-[2rem]" : ""
+          className={`p-[8px] rounded-md ${
+            activeSection === "#skills" ? "bg-[#3f3c3c69]" : ""
           }`}
         >
           <a href="#skills" onClick={handleNav}>
-            Skills
+            <FaRegCircle size={14} />
           </a>
         </li>
         <li
-          className={`py-2 rounded-[2rem] ${
-            activeSection === "#projects" ? "bg-[#763CAC] px-[2rem]" : ""
+          className={`p-[8px] rounded-md ${
+            activeSection === "#projects" ? "bg-[#3f3c3c69]" : ""
           }`}
         >
           <a href="#projects" onClick={handleNav}>
-            Projects
+            <FaRegSquare size={14} />
           </a>
         </li>
       </ul>
