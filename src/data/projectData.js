@@ -6,6 +6,7 @@ import Password from "../assets/password.png";
 import Translator from "../assets/translator.png";
 import Typing from "../assets/typing.png";
 import Movies from "../assets/movies.jpeg";
+import Blog from "../assets/blog.jpeg";
 
 const projects = [
   {
@@ -15,6 +16,14 @@ const projects = [
     demoUrl: "https://movies-info-card.netlify.app/",
     codeUrl: "https://github.com/MK884/Movie-Info",
     desc: "Its just a React Project which uses OMBD API for displaying movies information.",
+  },
+  {
+    id: 9,
+    thumbnail: Blog,
+    title: "Blog Website",
+    demoUrl: "https://movies-info-card.netlify.app/",
+    codeUrl: "https://github.com/MK884/Movie-Info",
+    desc: "Simple Blog Website with comments features",
   },
   {
     id: 1,
