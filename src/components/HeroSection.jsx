@@ -1,5 +1,6 @@
 import React from "react";
-import Desk from "../assets/desk.svg";
+// import Desk from "../assets/desk.svg";
+import Desk from "../assets/about.png";
 
 const HeroSection = () => {
   return (

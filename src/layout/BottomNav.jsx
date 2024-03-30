@@ -22,7 +22,7 @@ const BottomNav = () => {
         }
       });
 
-      if (currentSectionId && currentSectionId !== activeSection) {
+      if (currentSectionId) {
         setActiveSection(currentSectionId);
       }
     };
@@ -34,11 +34,8 @@ const BottomNav = () => {
   }, [activeSection]);
 
   return (
-    <nav
-      className="fixed lg:bottom-10 bottom-0 px-1 py-2 left-1/2 translate-x-[-50%] lg:w-[400px] lg:rounded-[2rem] bg-[#232329] rounded-md w-full m-1 border border-[#2e2e2e]
-    "
-    >
-      <ul className="flex font-bold  text-white list-none justify-around items-center hover:cursor-pointer">
+    <nav className="w-full fixed lg:bottom-10 bottom-0 py-2 transform left-1/2 -translate-x-1/2 lg:w-[400px] lg:rounded-[2rem] bg-[#232329] rounded-lg m-2 border border-[#2e2e2e]">
+      <ul className="flex font-bold text-white list-none justify-around items-center hover:cursor-pointer">
         <li
           className={`p-[8px] rounded-md ${
             activeSection === "#home" ? "bg-[#3f3c3c69]" : ""
