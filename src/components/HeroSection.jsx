@@ -18,7 +18,7 @@ const HeroSection = () => {
             <h1 className="text-indigo-500 lg:text-[7rem] text-[3rem] text-center font-serif rotate-2">Merchant Khalid</h1>
             <h2 className="text-white lg:text-[5rem] lg:-mt-14 text-[3rem] text-center rotate-2">Full Stack Developer </h2>
           <a
-            href="https://drive.google.com/file/d/1dVVtpfWb2hpKBcZnsb5ewpAJd1V5P84P/view?usp=sharing"
+            href="https://drive.google.com/file/d/1eJWqk6-YQxryBEj-OE2IHwnfyCqe_K9t/view?usp=sharing"
             target="_blank"
             >
             <button className="text-white shadow-md text-[1.5rem] m-8 bg-gradient-to-r hover:scale-110 transition-all from-indigo-500 p-2 rounded-lg">
