@@ -16,7 +16,7 @@ const HeroSection = () => {
             <p className="text-white m-8">Hello!</p>
         <div className="font-bold flex flex-wrap justify-center items-center h-screen flex-col">
             <h1 className="text-indigo-500 lg:text-[7rem] text-[3rem] text-center font-serif rotate-2">Merchant Khalid</h1>
-            <h2 className="text-white lg:text-[5rem] lg:-mt-14 text-[3rem] text-center rotate-2">Full Stack Developer </h2>
+            <h2 className="text-white lg:text-[5rem] lg:-mt-14 text-[3rem] text-center rotate-2">Full Stack Web Developer </h2>
           <a
             href="https://drive.google.com/file/d/1eJWqk6-YQxryBEj-OE2IHwnfyCqe_K9t/view?usp=sharing"
             target="_blank"
