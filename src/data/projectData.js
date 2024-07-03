@@ -7,6 +7,7 @@ import Translator from "../assets/translator.png";
 import Typing from "../assets/typing.png";
 import Movies from "../assets/movies.jpeg";
 import Blog from "../assets/blog.jpeg";
+import ChessKing from "../assets/ChessKing.png";
 
 const projects = [
   {
@@ -24,6 +25,14 @@ const projects = [
     demoUrl: "https://movies-info-card.netlify.app/",
     codeUrl: "https://github.com/MK884/Movie-Info",
     desc: "Simple Blog Website with comments features",
+  },
+  {
+    id: 10,
+    thumbnail: ChessKing,
+    title: "Chess King",
+    demoUrl: "https://github.com/MK884/ChessKing",
+    codeUrl: "https://github.com/MK884/ChessKing",
+    desc: "Play Chess Game Online with friends",
   },
   {
     id: 1,

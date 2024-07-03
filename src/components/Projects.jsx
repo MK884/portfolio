@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { projects } from "../data";
+import CarouselContainer from "../../carouselConatiner/CarouselContainer";
 
 const Projects = () => {
   return (
@@ -20,7 +21,7 @@ const Projects = () => {
           />
         ))}
       </div>
-      hello
+      
     </section>
   );
 };

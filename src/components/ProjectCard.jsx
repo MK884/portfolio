@@ -1,8 +1,9 @@
 import React from "react";
+import CarouselContainer from "../../carouselConatiner/CarouselContainer";
 
 const ProjectCard = ({ title, thumbnail, demoUrl, codeUrl, desc }) => {
   return (
-    <>
+    < >
       <div className="hover:shadow-[5px 5px 5px 10px 1px #2f1339] hover:cursor-pointer border border-[#353131b7] hover:border-white hover:border transition-all w-[320px]  rounded-lg flex flex-col overflow-hidden gap-5 p-[1rem] bg-[#0b0e13]">
         <h2 className="text-white font-bold line-clamp-1 text-ellipsis">
           {title}
